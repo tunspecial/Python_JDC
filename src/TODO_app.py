@@ -19,8 +19,10 @@ Thank You!!!
 
 if __name__ == "__main__":
     print(welcome,end="")
+    
     id = 0
     tasks:dict[int,str] = {}
+    
     while True:
         print(operation)
         
@@ -39,11 +41,17 @@ if __name__ == "__main__":
             case "2":
                 print("Create Task")
                 print("====================")
-                id +=1
-                task_name = input("Task Name : ")
-                tasks[id] = task_name ##tasks[101] → "Buy groceries"
-                print(f"Your task is create at id : {id} ")
-                print("====================",end="")
+                while True:
+                    task_name = input("Task Name : ")
+                    if task_name == "":
+                        print()
+                        print("Task name cannot be empty!\n")
+                    else:
+                        id += 1
+                        tasks[id] = task_name ##tasks[101] → "Buy groceries"
+                        print(f"Your task is create at id : {id} ")
+                        print("====================",end="")
+                        break
             case "3":
                 print("Find Task")
                 print("====================")
@@ -69,9 +77,11 @@ if __name__ == "__main__":
                     print("Your task is deleted")
                 print("====================",end="")
             case _:
-                if operation_id == "Exit":
-                    break                  
-                else:
-                    print(f"Please Enter Operation ID Number : ")
-                      
+                print()
+                if operation_id == "":
+                        print(f"Please Enter Exit to Quit The Program: ")
+                else :
+                    break
+                    
     print(thanks)
+    

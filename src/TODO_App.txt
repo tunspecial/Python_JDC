@@ -1,0 +1,76 @@
+=====================
+TODO Application
+=====================
+
+Select Operation
+1.show task
+2.create task
+3.find task
+4.delete task
+
+Select ID : 1 
+
+Task List
+===================
+1.Learn Python
+2.Watch TV
+There is not task
+===================
+
+Select Operation
+1.show task
+2.create task
+3.find task
+4.delete task
+
+Select ID : 2
+
+Create task
+==============================
+Task Name : ????
+Your task is create at id : 3
+==============================
+
+Select Operation
+1.show task
+2.create task
+3.find task
+4.delete task
+
+Select ID : 3
+
+find task
+=======================
+Search Keyword : ???
+> there is not Result
+> Result is 
+1.Learn Python
+2.Watch TV
+========================
+
+Select Operation
+1.show task
+2.create task
+3.find task
+4.delete task
+
+Select ID : 4
+
+Delete task
+=========================
+Task ID : 10
+>there is not task id 10
+>Your task is deleted
+========================= 
+
+Select Operation
+1.show task
+2.create task
+3.find task
+4.delete task
+
+Select ID : Exit
+
+=====================
+Thank You....
+=====================

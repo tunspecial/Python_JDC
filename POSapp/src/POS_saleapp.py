@@ -2,7 +2,9 @@ from src.util import show_message , get_operation_id
 
 from src.operation import (
     add_prodct,
-    product_list
+    product_list,
+    create_voucher,
+    sale_history
 )
 
 

@@ -26,7 +26,6 @@ class Person:
     def __init__(self , age):
         self.__person_age = age
 
-
     def get_age(self):
         return self.__person_age
 
